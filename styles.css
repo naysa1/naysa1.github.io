@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Radley:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carlito&display=swap');
+
+.brown-text{
+  color: #A02020;
+}
+.Intro-Title{
+color: #302020;
+font-family: 'Radley', serif;
+font-size: 86px;
+  .brown-text{
+  color: #A02020;
+  }
+}
+
+
+.Intro-Subtitle{
+font-family: 'Carlito', sans-serif;
+font-size: 24px;
+color:  #302020;
+}
+
+.body {
+  font-family: 'Radley', serif;
+  margin: 0;
+  background-color: #F4F1E8;
+}
