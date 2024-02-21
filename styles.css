@@ -1,30 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Radley:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Carlito&display=swap');
-
-.brown-text{
-  color: #A02020;
-}
-.Intro-Title{
-color: #302020;
-font-family: 'Radley', serif;
-font-size: 86px;
-  .brown-text{
-  color: #A02020;
-  }
-}
-
-
-.Intro-Subtitle{
-font-family: 'Carlito', sans-serif;
-font-size: 24px;
-color:  #302020;
-}
-
 body {
-  font-family: 'Radley', serif;
+/*   font-family: 'Radley', serif; */
   margin: 0;
   background-color: #F4F1E8;
-  height: 100vh;
-  width: 100%; 
-  overflow-x: hidden;
+  display: flex; /* Using Flexbox to center content */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Take up full viewport height */
+}
+
+.container {
+  text-align: center; /* Center align inner elements */
+}
+
+.Introduction {
+  margin-bottom: 50px; /* Add some space below the introduction */
+  
+}
+
+.Intro-Subtitle{
+  font-size: 20px;
+  font-family: 'Carlito', sans-serif;
+}
+
+.Intro-Title{
+  font-size: 60px;
+  font-color: #3d3021;
+  font-family: 'Radley', serif;
+    .brown-text{
+      color: #A02020;
+    }
+}
+
+.nav_bar ul {
+  font-family: 'Radley', serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav_bar ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.nav_bar ul li a {
+  text-decoration: none;
+  color: #302020;
+  cursor: pointer;
+}
+
+.nav_bar ul li a:hover {
+  text-decoration: underline;
 }
