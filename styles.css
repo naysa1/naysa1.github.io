@@ -24,4 +24,7 @@ body {
   font-family: 'Radley', serif;
   margin: 0;
   background-color: #F4F1E8;
+  height: 100vh;
+  width: 100%; 
+  overflow-x: hidden;
 }
