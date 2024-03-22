@@ -38,16 +38,14 @@ body {
     }
   }
   .right-box{
-    width: 200px;
-    height: 200px;
     .image {
-        .img{
-            width: 200px;
-            height: auto;
-            border-radius: 8px;
-        }
+        background-image: url('/assets/images/profile_image2.jpg');
+        width: 300px;
+        height: 300px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
     }
-    
   }
 }
 
