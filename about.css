@@ -38,10 +38,14 @@ body {
     }
   }
   .right-box{
-    .image img {
-        max-width: 20%;
-        height: auto;
-        border-radius: 8px;
+    width: 200px;
+    height: 200px;
+    .image {
+        .img{
+            width: 200px;
+            height: auto;
+            border-radius: 8px;
+        }
     }
     
   }
