@@ -38,9 +38,8 @@ body {
     }
   }
   .right-box{
-    .image{
-      max-width: 10%;
-      max-height: 10%
+    .img{
+        border-radius: 8px;
     }
   }
 }
