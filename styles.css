@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Radley:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Carlito&display=swap');
+
 body {
-/*   font-family: 'Radley', serif; */
   margin: 0;
   background-color: #F4F1E8;
-  display: flex; /* Using Flexbox to center content */
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  height: 100vh; /* Take up full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .container {
@@ -16,21 +16,21 @@ body {
 
 .Introduction {
   margin-bottom: 50px; /* Add some space below the introduction */
-  
 }
 
-.Intro-Subtitle{
+.Intro-Subtitle {
   font-size: 20px;
   font-family: 'Carlito', sans-serif;
 }
 
-.Intro-Title{
+.Intro-Title {
   font-size: 60px;
   color: #3d3021;
   font-family: 'Radley', serif;
-    .brown-text{
-      color: #A02020;
-    }
+}
+
+.Intro-Title .brown-text {
+  color: #A02020;
 }
 
 .nav_bar ul {
