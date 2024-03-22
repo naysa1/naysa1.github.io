@@ -24,7 +24,7 @@ body {
     align-items: flex-start;
     
     .About-Title{
-      font-size: 48px;
+      font-size: 300px;
       color: #9B4819;
       font-family: 'Radley', serif;
       margin-left: 10%;
@@ -34,7 +34,7 @@ body {
       font-family: 'Carlito', sans-serif;
       margin-top: 2%;
       margin-left: 10%;
-      font-size: 18px;
+      font-size: 200px;
     }
   }
   .right-box{
