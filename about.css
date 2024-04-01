@@ -2,21 +2,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Carlito&display=swap');
 
 body {
-    margin: 0;
-    background-color: #F4F1E8;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    height: 100vh;
+  margin: 0;
+  background-color: #F4F1E8;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100vh;
 }
 
 .container {
-    text-align: center; /* Center align inner elements */
+  text-align: center; /* Center align inner elements */
+  display: flex;
+  flex-flow: row wrap;
 }
 .About_Page{
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  flex-flow: row wrap;
   height: 100%;
   .left-box{
     display: flex;
