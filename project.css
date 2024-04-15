@@ -31,7 +31,7 @@ body {
 
 .projects-table {
   display: flex;
-  flex-wrap: wrap;
+
   justify-content: space-between;
   margin: 0% 20% 0% 20%; 
   flex-direction: row;
