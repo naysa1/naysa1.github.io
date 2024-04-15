@@ -38,6 +38,10 @@ body {
  
 }
 
+.project {
+    flex-direction: column;
+    display: flex;;
+}
 
 .project img {
   width: 200px;
@@ -48,8 +52,8 @@ body {
 
 .project span {
   display: block;
-  margin-top: 50%;
-  margin-bottom: 40%;
+  margin-top: 20%;
+  margin-bottom: 20%;
 }
 
 .nav_bar ul {
