@@ -31,7 +31,6 @@ body {
 
 .projects-table {
   display: flex;
-
   justify-content: space-between;
   margin: 0% 20% 0% 20%; 
   flex-direction: row;
@@ -39,8 +38,8 @@ body {
 }
 
 .project {
-    flex-direction: column;
-    display: flex;;
+  flex-direction: column;
+  display: flex;
 }
 
 .project img {
@@ -48,12 +47,14 @@ body {
   height: 200px;
   border-radius: 10px;
   cursor: pointer;
+  align-content: center;
 }
 
 .project span {
   display: block;
   margin-top: 20%;
   margin-bottom: 20%;
+  font-family: 'Radley', serif;
 }
 
 .nav_bar ul {
