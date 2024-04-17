@@ -50,37 +50,34 @@ body {
   align-content: center;
 }
 
-.project span {
-  display: block;
-  margin-top: 20%;
-  margin-bottom: 20%;
-  font-family: 'Radley', serif;
-}
-/* relevant styles */
 .img__wrap {
   position: relative;
-  height: 200px;
-  width: 257px;
+  display: inline-block;
+}
+
+.img__img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .img__description {
   position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(29, 106, 154, 0.72);
-  color: #fff;
-  visibility: hidden;
-  opacity: 0;
-
-  /* transition effect. not necessary */
-  transition: opacity .2s, visibility .2s;
+  font-family: 'Radley', serif;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s ease;
+  background-color: rgba(0, 0, 0, 0.5); /* Background color for the text */
+  color: white;
+  padding: 10px;
+  text-align: center;
 }
 
+/* Hover effect */
 .img__wrap:hover .img__description {
-  visibility: visible;
-  opacity: 1;
+  opacity: 1; /* Show text on hover */
 }
 .nav_bar ul {
   font-family: 'Radley', serif;
